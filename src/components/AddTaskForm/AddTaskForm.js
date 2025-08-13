@@ -14,11 +14,12 @@ const AddTaskForm=({ addTask })=>{
             return
         }
         addTask(value);
+        setValue('');
     }
     return(
         <div className="AddTaskForm">
             <form onSubmit={handleSubmit}>
-                <input onChange={handleChange} type='text' placeholder="what needs to be done?">
+                <input value={value} onChange={handleChange} type='text' placeholder="what needs to be done?">
                 </input>
                 <button type="submit">
                     Add

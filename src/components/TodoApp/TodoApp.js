@@ -46,7 +46,7 @@ const TodoApp = () => {
             }
         ]
         setTasks(newTasks);
-        localStorage.setItem('tasks',JSON.stringify(newTasks))
+        localStorage.setItem('tasks',JSON.stringify(newTasks));
     }
     const deleteTask = (taskid) => {
         const newTasksList = tasks.filter(task => task.id !== taskid);

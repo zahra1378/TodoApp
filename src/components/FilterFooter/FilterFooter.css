@@ -34,3 +34,6 @@
     background-color: #2980b9;
     color: white;
 }
+.FilterFooter .FilterFooter__filters ul li .active{
+    background-color: #2980b9;
+}
