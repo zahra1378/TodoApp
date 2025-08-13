@@ -1,0 +1,36 @@
+.FilterFooter{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+}
+.FilterFooter .FilterFooter__countItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-right: 1px solid #eee;
+    font-size: 12px;
+}
+.FilterFooter .FilterFooter__filters {
+    width: 100%;
+}
+.FilterFooter .FilterFooter__filters ul{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+.FilterFooter .FilterFooter__filters ul li button{
+    border: none;
+    cursor: pointer;
+    background-color: #eee;
+    margin: 0 5px;
+    padding: 5px;
+    transition-duration: 500ms;
+} 
+.FilterFooter .FilterFooter__filters ul li button:hover{
+    background-color: #2980b9;
+    color: white;
+}
